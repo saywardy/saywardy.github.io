@@ -1,0 +1,60 @@
+/*头部修改*/
+
+.header{
+	background: #003f88;
+}
+
+.siteSwitch a{
+   color: #6bafff !important;
+}
+.siteSwitch a.active {
+    color: #fff !important;
+}
+
+.selectBox li.active{
+    color: #003f88 !important;
+}
+
+.personal_bottom ul li.telephone {
+    background: url(./baseInfobg.png) no-repeat 0px 0px;
+}
+
+ 
+.personal_bottom ul li.email{
+	background: url(./baseInfobg.png) no-repeat 0px -51px;
+}
+
+
+.personal_bottom ul li.address{
+	background: url(./baseInfobg.png) no-repeat 0px -113px;
+}
+
+.personal_bottom ul.research li{
+
+	background: url(./baseInfobg.png) no-repeat 0px -2px;
+
+}
+
+.personal_bottom ul li.yjfx{
+	width:100%;
+	background: url(./research_bg.png) no-repeat 0px -2px;
+}
+.search-input input{
+	color:#003f88 !important;
+}
+.search-btn{
+	background: url(./search_summerbtn.png) no-repeat center center !important;
+}
+/*个人信息*/
+.personal_name{
+	color:#003f88;
+}
+
+/*滚动拉栏目*/
+li.active{
+	background: #003f88;
+}
+/*相关教师*/
+.title_ h3{
+	color: #009699;
+}

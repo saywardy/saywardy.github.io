@@ -1,0 +1,92 @@
+.slider {
+    padding-top: 90px;
+	width: 100%;
+	background-color: #187cc2;
+    height: auto;
+}
+
+.slider-container {
+    margin-top: 80px;
+}
+
+.slider img.logo{
+	height: 200px;
+	margin-left: 100px;
+}
+
+.slider h2{
+	margin-top: 40px;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.slider p{
+	color: #fff;
+	margin-bottom: 25px;
+}
+.slider a{
+	font-size: 18px;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 3px;
+}
+
+
+/* Individual effects */
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+
+/*
+.slider figure.effect-ruby-slider {
+    background-color: #187cc2;
+    width: 100%;
+    height: 500px;
+}
+
+.slider .effect-ruby-slider-background {
+    opacity: 0.4;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+*/
+.slider figure {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    /*display: inline-block;
+    overflow: hidden;*/
+    background: #187cc2;
+}
+
+.slider figure img.bigPic {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    height: 500px;
+    opacity:0.1; filter: alpha(opacity=10);
+}
+
+.slider figure figcaption {
+    box-sizing: border-box;
+    padding: 0px;
+    color: #fff;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider figure figcaption::before,
+.slider figure figcaption::after {
+    box-sizing: border-box;
+    pointer-events: none;
+}

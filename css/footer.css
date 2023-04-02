@@ -1,0 +1,13 @@
+footer.site-footer {
+  background-color: #fcfcfc;
+  padding: 10px 0;
+  color: #9f9f9f;
+  font-size: 13px;
+  text-align: center;
+}
+footer.site-footer a {
+  color: #808080;
+}
+footer.site-footer a:hover {
+  color: #187cc2;
+}

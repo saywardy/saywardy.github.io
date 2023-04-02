@@ -1,0 +1,48 @@
+.solution_section {
+    background-color: #fff;
+    margin: 80px;
+}
+
+.solution_section h2 {
+    font-size: 35px;
+    text-align: center;
+    box-sizing: border-box;
+    word-spacing: -0.15em;
+    font-weight: 10;
+}
+
+.solution_container {
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    /*background-color: #eee;*/
+    background-color: #fff;
+
+}
+
+.solution_container .solution_card {
+    display: inline-block;
+    /*background-color: #00ff00;*/
+
+}
+
+.solution_container .solution_card p.solution_chinese {
+    /*color: #000;*/
+    font-size: 1.15em;
+    margin: 20px;
+}
+
+.solution_container .solution_card p.solution_english {
+    /*color: #000;*/
+    font-size: 1.15em;
+    margin: 10px;
+}
+
+.solution_container .solution_card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.solution_container .solution_card a:hover {
+    color: blue;
+}
